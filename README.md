@@ -27,4 +27,4 @@ TaskFlow is made using HTML, CSS and Vanilla JavaScript , being a to-do list app
 Steps to set up the project locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/CaptainThunder31/TaskFlow-v1.6.git
