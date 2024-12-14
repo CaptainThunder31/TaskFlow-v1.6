@@ -19,6 +19,8 @@ TaskFlow is made using HTML, CSS and Vanilla JavaScript , being a to-do list app
 - Feature 2: Easy to use.
 - Feature 3: Minimalist and eye-catching design.
 
+![Tasks section](https://i.ibb.co/8cHkFBM/Screenshot-2024-12-14-10-46-27-13-f9a7afa717ced9e1fc9be9833291031a.jpg)
+
 ## Installation
 Steps to set up the project locally:
 1. Clone the repository:
