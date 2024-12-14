@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header> <span class="menu-icon">
+      <span class="span1"></span>
+      <span class="span2"></span>
+      <span class="span3"></span>
+    </span>
+    <h1>Task<span>Flow</span></h1>
+  </header>
+  <aside class="sidebar">
+    <div style="display:flex; align-items:center; justify-content:center;">
+      <h1>TaskFlow</h1>
+    </div>
+    <h2><i class="bx bx-book-open"></i> Main pages:</h2>
+    <ul>
+      <li> <i class="bx bx-plus-circle"></i><a href="#one">Add Task</a></li>
+      <li><i class="bx bx-task"></i><a href="#two">Task List</a></li>
+
+    </ul>
+    <h2> <i class="bx bx-code-alt"></i> Credit :</h2><br />
+    <p style="font-size:20px"><b>© <a href="https://www.sololearn.com/profile/27462394/?ref=app">Captain Thunder</a>, 2024</b></p>
+    <div class="link"><i class="bx bxl-github"></i><a href="https://github.com/CaptainThunder31">GitHub Account</a></div>
+    <div class="link"><i class="bx bxl-instagram"></i><a href="https://www.instagram.com/captain_thunder31?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Ig Account</a></div>
+
+  </aside>
+  <div class="container">
+    <div class="screen one" id="one">
+      <div class="card">
+
+        <h1>Add Task...</h1>
+
+
+        <div class="form-outer">
+          <form>
+            <div class="form-div">
+              <input type="text" id="taskInput" autocomplete="off" required />
+              <label for="taskInput" class="label">
+                <span class="label-content">Task name:</span>
+              </label>
+            </div>
+            <div class="form-div">
+              <input type="date" id="taskDate" autocomplete="off" required />
+              <label for="taskDate" class="label">
+                <span class="label-content">Due date:</span>
+              </label>
+            </div>
+            <div class="form-div">
+              <input type="time" id="taskTime" autocomplete="on" required />
+              <label for="taskTime" class="label">
+                <span class="label-content">Due time:</span>
+              </label>
+            </div>
+
+
+          </form>
+        </div>
+
+        <div class="buttons">
+
+          <button class="submit" id="addBtn">Add</button>
+        </div>
+      </div>
+    </div>
+    <div class="screen two" id="two">
+
+      <div class="card">
+        <div> <button id="dltBtn">Delete</button>
+          <button id="markBtn">Mark</button>
+          <label for="status-filter" id="labelX"><i class="bx bx-sort-down"></i></label>
+          <select id="status-filter">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="pending">Pending</option>
+          </select>
+        </div>
+        <ul id="task-list"></ul>
+      </div>
+
+
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
